@@ -1,0 +1,13 @@
+.DS_Store
+.build/
+dist/
+.swiftpm/
+.codex/
+*.xcuserstate
+*.pem
+*.p12
+*.mobileprovision
+
+# Never commit OAuth or Tesla account material.
+Secrets/
+*.token
