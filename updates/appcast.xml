@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Tesla Garage Updates</title>
+    <link>https://github.com/appleforever11/TeslaGarage</link>
+    <description>Official Tesla Garage update feed.</description>
+    <language>en</language>
+  </channel>
+</rss>

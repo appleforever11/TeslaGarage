@@ -10,7 +10,7 @@ APP_MACOS="$APP_BUNDLE/Contents/MacOS"
 APP_RESOURCES="$APP_BUNDLE/Contents/Resources"
 APP_FRAMEWORKS="$APP_BUNDLE/Contents/Frameworks"
 SPARKLE_PUBLIC_KEY="1QwxGTbkRZRB2hZJ8wTAJwytcGxG1v5i9/l/oEVuPzg="
-SPARKLE_FEED_URL="${SPARKLE_FEED_URL:-}"
+SPARKLE_FEED_URL="${SPARKLE_FEED_URL:-https://raw.githubusercontent.com/appleforever11/TeslaGarage/main/updates/appcast.xml}"
 pkill -x "$APP_NAME" >/dev/null 2>&1 || true
 cd "$ROOT_DIR"
 swift build
