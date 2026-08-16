@@ -13,8 +13,11 @@ struct TeslaGarageApp: App {
                 Button("Refresh Live Tesla Data") { store.refreshLiveData() }
                     .keyboardShortcut("r", modifiers: [.command, .shift])
                     .disabled(!store.hasFleetToken || store.isRefreshing)
-                Divider()
-                Button("Check for Updates…") { updater.checkForUpdates() }
+            }
+            CommandGroup(after: .appInfo) {
+                Button("Check for Updates…") {
+                    updater.checkForUpdates()
+                }
             }
         }
         Settings { GarageSettings(store: store) }
